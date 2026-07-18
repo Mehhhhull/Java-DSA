@@ -9,11 +9,11 @@ public class Conditionals {
 //        } else{
 //            System.out.println("i is not 5");
 //        }
-        if(i%2==0){
-            System.out.println("i is even");
-        } else{
-            System.out.println("i is odd");
-        }
+//        if(i%2==0){
+//            System.out.println("i is even");
+//        } else{
+//            System.out.println("i is odd");
+//        }
 
         //nested if
 //        if(i>5){
