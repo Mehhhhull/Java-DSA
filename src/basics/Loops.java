@@ -29,11 +29,100 @@ public class Loops {
          */
 
         //nested loops
-        for (int i = 1; i <= 5; i++) {
-            for (int j = 1; j <= 5; j++) {
+//        for (int i = 1; i <= 5; i++) {
+//            for (int j = 1; j <= 5; j++) {
+//
+//            }
+//        }
 
+        //pattern printing
+//        for (int i = 1; i <=5; i++) {
+//            for (int j = 1; j <=i ; j++) {
+//                System.out.print("*");
+//
+//            }
+//            System.out.println("");
+//
+//
+//        }
+
+        //jump statements
+        //break,continue
+//        for (int i = 1; i < 10; i++) {
+//            System.out.println(i);
+//
+//            if(i>5){
+//                break;
+//            }
+//
+//        }
+
+        //prime or not
+//        int p=9;
+//        int i;
+//        for(i=2;i<p;i++){
+//            if(p%i==0){
+//                System.out.println("not prime");
+//                break;
+//            }
+//        }
+//        if(i==p){
+//            System.out.println("The number is prime");
+//        }
+
+        //continue
+//        for (int i = 1; i < 10 ; i++) {
+//            if(i % 2 == 0){
+//                continue;
+//            }
+//
+//            System.out.println(i);
+//
+//        }
+
+
+        //break in nested loops
+//        for (int i = 1; i <=10; i++) {
+//            for (int j = 1; j <=i ; j++) {
+//                System.out.print("*");
+//
+//                if(j>=5){
+//                    break; //continue
+//                }
+//
+//            }
+//            System.out.println("");
+//
+//
+//        }
+
+        //labels
+//        outer: for (int i = 1; i <=10; i++) {
+//            inner: for (int j = 1; j <=i ; j++) {
+//                System.out.print("*");
+//
+//                if(j>=5){
+//                    break outer;
+//                }
+//
+//            }
+//            System.out.println("");
+//
+//
+//        }
+
+        //whatever comes inside curly braces is called code blocks
+        //naming a code block
+        first:{
+            second:{
+                third:{
+
+                }
             }
+
         }
+
+
     }
     }
 
