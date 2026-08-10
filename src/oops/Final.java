@@ -12,6 +12,17 @@ public class Final {
     }
 }
 
+//why in java main is static???
+//Final f1=new Final();
+//f1.main();
+//but as static, therefore Final.main();
+//therefore all method/ function inside the main is static
+
 class Randomm{
-    final double PI=3.14;
+
+    static final double PI;
+
+    static{
+        PI=3.14;
+    }
 }
