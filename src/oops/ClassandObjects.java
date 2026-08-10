@@ -2,8 +2,8 @@ package oops;
 
 public class ClassandObjects {
     public static void main(String[] args){
-        Student s1=new Student();
-        Student s2=new Student();
+        Student1 s1=new Student1();
+        Student1 s2=new Student1();
 
 
         s1.name="Aditya";
@@ -24,7 +24,7 @@ public class ClassandObjects {
     }
 }
 
-class Student{
+class Student1{
     String name;
     int age;
     int rollNumber;
