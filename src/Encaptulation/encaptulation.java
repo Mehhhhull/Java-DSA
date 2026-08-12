@@ -7,7 +7,7 @@ public class encaptulation {
 
         ba.deposit(500);
         ba.withdraw(300);
-        System.out.println(ba.getBalance());
+//        System.out.println(ba.getBalance());
 
     }
 }
@@ -29,6 +29,9 @@ class BankAccount{
 
 
 }
+
+//what is package->
+//import pakageName.className
 
 class Student{
     private String name;
